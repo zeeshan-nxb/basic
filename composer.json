@@ -1,0 +1,14 @@
+{
+    "name": "zeehan-nxb/basic",
+    "description": "Basic Package for laravel packages-development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeeshan Jadoon",
+            "email": "zeeshan.jadoon@nxb.com.pk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
