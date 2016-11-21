@@ -16,9 +16,11 @@ class BasicServiceProvider extends ServiceProvider
         //--- include custom routes
         include __DIR__.'/routes.php';
 
+        $this->loadViewsFrom(__DIR__.'/views', 'basic');
+
         //--- Publish the custom template for used frontend
         $this->publishes([
-            __DIR__.'/views' => base_path('resources/views/nxb/basic')
+            __DIR__.'/views' => base_path('resources/views/zeeshan-nxb/basic')
         ], 'basic');
     }
 

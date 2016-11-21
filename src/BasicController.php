@@ -11,7 +11,9 @@ class BasicController extends Controller
 
 	public function index(){
 
-		return 123;
+		$title = "This is basic package";
+
+		return view("basic::index", compact('title'));
 	}
 
 }
