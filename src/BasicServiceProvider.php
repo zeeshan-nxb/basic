@@ -21,7 +21,7 @@ class BasicServiceProvider extends ServiceProvider
         //--- Publish the custom template for used frontend
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/zeeshan-nxb/basic')
-        ], 'basic');
+        ]);
     }
 
     /**
